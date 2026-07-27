@@ -1,0 +1,51 @@
+id,name,title,company,companySize,sector,emailEngaged,visitedWebsite,country,sourceEvent
+3001,Dr. Sarah Chen,Chief Scientific Officer,Vertex Biologics,5000,biotech,true,true,United States,BioPharm Summit 2026
+3002,James Whitfield,VP Regulatory Affairs,Meridian Pharmaceuticals,12000,pharmaceutical,false,false,United States,BioPharm Summit 2026
+3003,Priya Anand,Director of Clinical Operations,Helix Research Labs,800,research,true,false,India,BioPharm Summit 2026
+3004,Michael Torres,CTO,GenomiCore,3500,biotech,true,true,United States,BioPharm Summit 2026
+3005,Emma Lindqvist,VP Drug Discovery,Nordica Pharma,8000,pharmaceutical,true,false,Sweden,PharmaTech Europe 2026
+3006,Dr. Rachel Okafor,Head of R&D,Synthade Therapeutics,2200,biotech,false,true,United Kingdom,PharmaTech Europe 2026
+3007,Tom Beckett,Lab Manager,Crestline Research,150,research,false,false,United States,BioPharm Summit 2026
+3008,Ana Sofia Reyes,Director of Quality Assurance,Baylight Pharma,4500,pharmaceutical,true,false,United States,BioPharm Summit 2026
+3009,Kenji Yamamoto,Research Scientist,Osaka BioWorks,900,biotech,false,false,Japan,BioPharm Summit 2026
+3010,Charlotte Dubois,VP Clinical Development,Rhone Therapeutics,6700,pharmaceutical,true,true,France,PharmaTech Europe 2026
+3011,David Park,Manager Bioinformatics,Sequenza Labs,1200,biotech,true,false,United States,BioPharm Summit 2026
+3012,Dr. Fatima Al-Rashid,Chief Medical Officer,Nova Genomics,2800,biotech,true,true,Germany,PharmaTech Europe 2026
+3013,Ryan Mitchell,Research Associate,SmallLab Inc,45,research,false,false,United States,BioPharm Summit 2026
+3014,Ingrid Bergstrom,Director of Regulatory Science,Stockholm Biopharma,3100,pharmaceutical,false,false,Sweden,PharmaTech Europe 2026
+3015,Arjun Mehta,VP Manufacturing,Chennai BioSciences,5500,pharmaceutical,true,false,India,BioPharm Summit 2026
+3016,Lisa Hoffman,Senior Scientist,Trellis Bio,600,biotech,true,true,United States,BioPharm Summit 2026
+3017,Dr. Wei Zhang,Head of Translational Medicine,Meridian East,7200,pharmaceutical,false,true,Singapore,BioPharm Summit 2026
+3018,Olivia Grant,Clinical Trial Manager,Beacon Health Research,950,research,true,false,Canada,BioPharm Summit 2026
+3019,Marco Rossi,Director of Biostatistics,Milano Therapeutics,1800,pharmaceutical,false,false,Italy,PharmaTech Europe 2026
+3020,Hannah Kim,QA Specialist,PureLine Bio,320,biotech,false,false,India,BioPharm Summit 2026
+3021,Dr. Samuel Adeyemi,VP Translational Research,Lagos Biotech Group,2400,biotech,true,false,Netherlands,PharmaTech Europe 2026
+3022,Julia Nowak,Manager Clinical Data,Krakow Pharma Solutions,1100,pharmaceutical,true,true,Poland,PharmaTech Europe 2026
+3023,Ben Carter,Lab Technician,Foothill Research,80,research,false,false,United States,BioPharm Summit 2026
+3024,Aisha Patel,Director of Pharmacovigilance,SafeMed Pharma,9500,pharmaceutical,true,false,India,BioPharm Summit 2026
+3025,Lucas Fernandez,Principal Scientist,Andes Biologics,1500,biotech,false,true,United States,BioPharm Summit 2026
+3026,Dr. Marie Laurent,Chief Development Officer,Lyon Therapeutics,4200,pharmaceutical,true,true,France,PharmaTech Europe 2026
+3027,Kevin O'Brien,Research Coordinator,Dublin BioHub,200,research,true,false,Ireland,PharmaTech Europe 2026
+3028,Sneha Iyer,VP Quality & Compliance,Bangalore Pharma Labs,6100,pharmaceutical,false,false,India,BioPharm Summit 2026
+3029,Greg Thompson,Scientist II,Cascade Biosystems,750,biotech,false,false,United States,BioPharm Summit 2026
+3030,Dr. Elena Petrova,Head of Oncology Research,Baltic BioPharma,3800,pharmaceutical,true,true,Germany,PharmaTech Europe 2026
+3031,Raj Krishnan,Director of Process Development,Hyderabad Biologics,2600,biotech,true,false,India,BioPharm Summit 2026
+3032,Amy Walsh,Regulatory Affairs Associate,ClearPath Pharma,1300,pharmaceutical,false,false,Canada,BioPharm Summit 2026
+3033,Dr. Hiroshi Tanaka,VP Research Strategy,Tokyo Life Sciences,8800,biotech,true,true,Japan,BioPharm Summit 2026
+3034,Sofia Andersson,Clinical Operations Lead,Uppsala Research Institute,550,research,true,false,Sweden,PharmaTech Europe 2026
+3035,Nathan Brooks,Manager Lab Operations,Ridgeline Bio,400,biotech,false,false,United States,BioPharm Summit 2026
+3036,Dr. Leila Haddad,Chief Innovation Officer,Cedar Therapeutics,3300,pharmaceutical,true,false,United Kingdom,PharmaTech Europe 2026
+3037,Chris Nguyen,Bioprocess Engineer,Delta BioManufacturing,1700,biotech,false,true,United States,BioPharm Summit 2026
+3038,Kavya Reddy,Director of Medical Affairs,Mumbai MedSciences,5200,pharmaceutical,true,true,India,BioPharm Summit 2026
+3039,Paul Fischer,Senior Research Fellow,Heidelberg Institute,1900,research,false,false,Germany,PharmaTech Europe 2026
+3040,Grace Liu,VP Portfolio Strategy,Pacific Biopharma,7500,pharmaceutical,false,true,United States,BioPharm Summit 2026
+3041,Dr. Ahmed Hassan,Head of Preclinical Development,Cairo BioResearch,1400,biotech,true,false,United Kingdom,PharmaTech Europe 2026
+3042,Jenny Martinez,Clinical Research Associate,Sunrise Trials,280,research,false,false,United States,BioPharm Summit 2026
+3043,Vikram Singh,Director of Analytics,Delhi Pharma Analytics,2100,pharmaceutical,true,false,India,BioPharm Summit 2026
+3044,Laura Schmidt,Manager Regulatory Submissions,Rhein Biopharma,3600,pharmaceutical,true,true,Germany,PharmaTech Europe 2026
+3045,Eric Johnson,Lab Assistant,Boulder BioLabs,60,biotech,false,false,United States,BioPharm Summit 2026
+3046,Dr. Nina Volkov,VP Immunology Research,Meridian North,4800,biotech,true,true,Canada,PharmaTech Europe 2026
+3047,Suresh Kumar,Principal Engineer,Chennai BioTech Park,1600,biotech,false,false,India,BioPharm Summit 2026
+3048,Michelle Tan,Director of Business Development,Singapore BioVentures,2900,pharmaceutical,true,false,Singapore,BioPharm Summit 2026
+3049,Jack Reynolds,Postdoctoral Researcher,University Research Wing,,research,false,false,,BioPharm Summit 2026
+3050,Dr. Isabel Moreno,Head of Gene Therapy,Barcelona Advanced Bio,V.P. level - 2700,biotech,true,true,Spain,PharmaTech Europe 2026

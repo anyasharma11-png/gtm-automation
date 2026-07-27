@@ -1,0 +1,51 @@
+First Name,Last Name,Email,Job Title,Company Name,Employee Count,Industry,Country/Region,Source Event
+Sarah,Chen,sarah.chen.vertexbiologics@example.com,Chief Scientific Officer,Vertex Biologics,5000,biotech,United States,BioPharm Summit 2026
+James,Whitfield,james.whitfield.meridianpharmaceuticals@example.com,VP Regulatory Affairs,Meridian Pharmaceuticals,12000,pharmaceutical,United States,BioPharm Summit 2026
+Priya,Anand,priya.anand.helixresearchlabs@example.com,Director of Clinical Operations,Helix Research Labs,800,research,India,BioPharm Summit 2026
+Michael,Torres,michael.torres.genomicore@example.com,CTO,GenomiCore,3500,biotech,United States,BioPharm Summit 2026
+Emma,Lindqvist,emma.lindqvist.nordicapharma@example.com,VP Drug Discovery,Nordica Pharma,8000,pharmaceutical,Sweden,PharmaTech Europe 2026
+Rachel,Okafor,rachel.okafor.synthadetherapeutics@example.com,Head of R&D,Synthade Therapeutics,2200,biotech,United Kingdom,PharmaTech Europe 2026
+Tom,Beckett,tom.beckett.crestlineresearch@example.com,Lab Manager,Crestline Research,150,research,United States,BioPharm Summit 2026
+Ana,Sofia Reyes,ana.sofiareyes.baylightpharma@example.com,Director of Quality Assurance,Baylight Pharma,4500,pharmaceutical,United States,BioPharm Summit 2026
+Kenji,Yamamoto,kenji.yamamoto.osakabioworks@example.com,Research Scientist,Osaka BioWorks,900,biotech,Japan,BioPharm Summit 2026
+Charlotte,Dubois,charlotte.dubois.rhonetherapeutics@example.com,VP Clinical Development,Rhone Therapeutics,6700,pharmaceutical,France,PharmaTech Europe 2026
+David,Park,david.park.sequenzalabs@example.com,Manager Bioinformatics,Sequenza Labs,1200,biotech,United States,BioPharm Summit 2026
+Fatima,Al-Rashid,fatima.al-rashid.novagenomics@example.com,Chief Medical Officer,Nova Genomics,2800,biotech,Germany,PharmaTech Europe 2026
+Ryan,Mitchell,ryan.mitchell.smalllabinc@example.com,Research Associate,SmallLab Inc,45,research,United States,BioPharm Summit 2026
+Ingrid,Bergstrom,ingrid.bergstrom.stockholmbiopharma@example.com,Director of Regulatory Science,Stockholm Biopharma,3100,pharmaceutical,Sweden,PharmaTech Europe 2026
+Arjun,Mehta,arjun.mehta.chennaibiosciences@example.com,VP Manufacturing,Chennai BioSciences,5500,pharmaceutical,India,BioPharm Summit 2026
+Lisa,Hoffman,lisa.hoffman.trellisbio@example.com,Senior Scientist,Trellis Bio,600,biotech,United States,BioPharm Summit 2026
+Wei,Zhang,wei.zhang.meridianeast@example.com,Head of Translational Medicine,Meridian East,7200,pharmaceutical,Singapore,BioPharm Summit 2026
+Olivia,Grant,olivia.grant.beaconhealthresearch@example.com,Clinical Trial Manager,Beacon Health Research,950,research,Canada,BioPharm Summit 2026
+Marco,Rossi,marco.rossi.milanotherapeutics@example.com,Director of Biostatistics,Milano Therapeutics,1800,pharmaceutical,Italy,PharmaTech Europe 2026
+Hannah,Kim,hannah.kim.purelinebio@example.com,QA Specialist,PureLine Bio,320,biotech,India,BioPharm Summit 2026
+Samuel,Adeyemi,samuel.adeyemi.lagosbiotechgroup@example.com,VP Translational Research,Lagos Biotech Group,2400,biotech,Netherlands,PharmaTech Europe 2026
+Julia,Nowak,julia.nowak.krakowpharmasolutions@example.com,Manager Clinical Data,Krakow Pharma Solutions,1100,pharmaceutical,Poland,PharmaTech Europe 2026
+Ben,Carter,ben.carter.foothillresearch@example.com,Lab Technician,Foothill Research,80,research,United States,BioPharm Summit 2026
+Aisha,Patel,aisha.patel.safemedpharma@example.com,Director of Pharmacovigilance,SafeMed Pharma,9500,pharmaceutical,India,BioPharm Summit 2026
+Lucas,Fernandez,lucas.fernandez.andesbiologics@example.com,Principal Scientist,Andes Biologics,1500,biotech,United States,BioPharm Summit 2026
+Marie,Laurent,marie.laurent.lyontherapeutics@example.com,Chief Development Officer,Lyon Therapeutics,4200,pharmaceutical,France,PharmaTech Europe 2026
+Kevin,O'Brien,kevin.o'brien.dublinbiohub@example.com,Research Coordinator,Dublin BioHub,200,research,Ireland,PharmaTech Europe 2026
+Sneha,Iyer,sneha.iyer.bangalorepharmalabs@example.com,VP Quality & Compliance,Bangalore Pharma Labs,6100,pharmaceutical,India,BioPharm Summit 2026
+Greg,Thompson,greg.thompson.cascadebiosystems@example.com,Scientist II,Cascade Biosystems,750,biotech,United States,BioPharm Summit 2026
+Elena,Petrova,elena.petrova.balticbiopharma@example.com,Head of Oncology Research,Baltic BioPharma,3800,pharmaceutical,Germany,PharmaTech Europe 2026
+Raj,Krishnan,raj.krishnan.hyderabadbiologics@example.com,Director of Process Development,Hyderabad Biologics,2600,biotech,India,BioPharm Summit 2026
+Amy,Walsh,amy.walsh.clearpathpharma@example.com,Regulatory Affairs Associate,ClearPath Pharma,1300,pharmaceutical,Canada,BioPharm Summit 2026
+Hiroshi,Tanaka,hiroshi.tanaka.tokyolifesciences@example.com,VP Research Strategy,Tokyo Life Sciences,8800,biotech,Japan,BioPharm Summit 2026
+Sofia,Andersson,sofia.andersson.uppsalaresearchinstitute@example.com,Clinical Operations Lead,Uppsala Research Institute,550,research,Sweden,PharmaTech Europe 2026
+Nathan,Brooks,nathan.brooks.ridgelinebio@example.com,Manager Lab Operations,Ridgeline Bio,400,biotech,United States,BioPharm Summit 2026
+Leila,Haddad,leila.haddad.cedartherapeutics@example.com,Chief Innovation Officer,Cedar Therapeutics,3300,pharmaceutical,United Kingdom,PharmaTech Europe 2026
+Chris,Nguyen,chris.nguyen.deltabiomanufacturing@example.com,Bioprocess Engineer,Delta BioManufacturing,1700,biotech,United States,BioPharm Summit 2026
+Kavya,Reddy,kavya.reddy.mumbaimedsciences@example.com,Director of Medical Affairs,Mumbai MedSciences,5200,pharmaceutical,India,BioPharm Summit 2026
+Paul,Fischer,paul.fischer.heidelberginstitute@example.com,Senior Research Fellow,Heidelberg Institute,1900,research,Germany,PharmaTech Europe 2026
+Grace,Liu,grace.liu.pacificbiopharma@example.com,VP Portfolio Strategy,Pacific Biopharma,7500,pharmaceutical,United States,BioPharm Summit 2026
+Ahmed,Hassan,ahmed.hassan.cairobioresearch@example.com,Head of Preclinical Development,Cairo BioResearch,1400,biotech,United Kingdom,PharmaTech Europe 2026
+Jenny,Martinez,jenny.martinez.sunrisetrials@example.com,Clinical Research Associate,Sunrise Trials,280,research,United States,BioPharm Summit 2026
+Vikram,Singh,vikram.singh.delhipharmaanalytics@example.com,Director of Analytics,Delhi Pharma Analytics,2100,pharmaceutical,India,BioPharm Summit 2026
+Laura,Schmidt,laura.schmidt.rheinbiopharma@example.com,Manager Regulatory Submissions,Rhein Biopharma,3600,pharmaceutical,Germany,PharmaTech Europe 2026
+Eric,Johnson,eric.johnson.boulderbiolabs@example.com,Lab Assistant,Boulder BioLabs,60,biotech,United States,BioPharm Summit 2026
+Nina,Volkov,nina.volkov.meridiannorth@example.com,VP Immunology Research,Meridian North,4800,biotech,Canada,PharmaTech Europe 2026
+Suresh,Kumar,suresh.kumar.chennaibiotechpark@example.com,Principal Engineer,Chennai BioTech Park,1600,biotech,India,BioPharm Summit 2026
+Michelle,Tan,michelle.tan.singaporebioventures@example.com,Director of Business Development,Singapore BioVentures,2900,pharmaceutical,Singapore,BioPharm Summit 2026
+Jack,Reynolds,jack.reynolds.universityresearchwing@example.com,Postdoctoral Researcher,University Research Wing,,research,,BioPharm Summit 2026
+Isabel,Moreno,isabel.moreno.barcelonaadvancedbio@example.com,Head of Gene Therapy,Barcelona Advanced Bio,,biotech,Spain,PharmaTech Europe 2026

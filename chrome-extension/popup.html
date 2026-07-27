@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  body {
+    font-family: -apple-system, sans-serif;
+    width: 460px;
+    max-height: 600px;
+    overflow-y: auto;
+    margin: 0;
+    padding: 14px;
+    color: #1E293B;
+    background: #F8FAFC;
+  }
+  h1 { font-size: 16px; margin: 0 0 4px; }
+  .subtitle { font-size: 11px; color: #64748B; margin-bottom: 14px; }
+  .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 20px; }
+  .card { background: white; border: 1px solid #E2E8F0; border-radius: 8px; padding: 10px 8px; text-align: center; }
+  .num { font-size: 18px; font-weight: 700; }
+  .label { font-size: 10px; color: #64748B; margin-top: 2px; }
+  h2 { font-size: 13px; margin: 22px 0 8px; padding-top: 4px; border-top: 1px solid #E2E8F0; }
+  h2:first-of-type { border-top: none; padding-top: 0; margin-top: 4px; }
+  .row {
+    background: white; border: 1px solid #E2E8F0; border-radius: 8px;
+    padding: 8px 10px; margin-bottom: 8px; cursor: pointer; font-size: 12px;
+  }
+  .row:hover { background: #F1F5F9; }
+  .row-top { display: flex; justify-content: space-between; align-items: center; }
+  .badge { padding: 1px 7px; border-radius: 5px; font-size: 10px; font-weight: 600; }
+  .brief { display: none; margin-top: 8px; }
+  .brief-section { margin-bottom: 10px; }
+  .brief-label {
+    font-size: 9px; text-transform: uppercase; letter-spacing: 0.05em;
+    color: #64748B; font-weight: 700; margin-bottom: 2px;
+  }
+  .brief-content { font-size: 12px; line-height: 1.5; color: #1E293B; }
+  .brief-content ul { margin: 4px 0; padding-left: 16px; }
+  .brief-content li { margin-bottom: 4px; }
+  .health-line { font-weight: 700; }
+  .health-line.green { color: #166534; }
+  .health-line.yellow { color: #92400E; }
+  .health-line.red { color: #991B1B; }
+  .setup { text-align: center; padding: 20px 0; }
+  .setup input {
+    width: 100%; padding: 8px; margin: 10px 0; border: 1px solid #CBD5E1;
+    border-radius: 6px; box-sizing: border-box; font-size: 12px;
+  }
+  button {
+    background: #2563EB; color: white; border: none; padding: 8px 14px;
+    border-radius: 6px; font-size: 12px; cursor: pointer; font-weight: 600;
+  }
+  button.secondary { background: #E2E8F0; color: #1E293B; }
+  .toolbar { display: flex; justify-content: space-between; margin-bottom: 10px; }
+  .error { color: #991B1B; font-size: 11px; margin-top: 8px; }
+  .loading { text-align: center; padding: 30px 0; color: #64748B; font-size: 12px; }
+  .chat-section { margin-top: 14px; background: white; border: 1px solid #E2E8F0; border-radius: 8px; padding: 10px; }
+  .quick-questions { display: flex; flex-wrap: wrap; gap: 5px; margin-bottom: 8px; }
+  .qbtn {
+    background: #EFF6FF; color: #1E40AF; border: 1px solid #BFDBFE;
+    padding: 4px 8px; border-radius: 12px; font-size: 10px; cursor: pointer; font-weight: 500;
+  }
+  .qbtn:hover { background: #DBEAFE; }
+  .chat-input-row { display: flex; gap: 6px; margin-top: 6px; }
+  .chat-input-row input {
+    flex: 1; padding: 6px 8px; border: 1px solid #CBD5E1; border-radius: 6px; font-size: 12px;
+  }
+  .chat-answer {
+    margin-top: 8px; padding: 8px; background: #F8FAFC; border-radius: 6px;
+    font-size: 12px; line-height: 1.5; white-space: pre-wrap; display: none;
+  }
+  .tabs { display: flex; gap: 4px; margin-bottom: 16px; border-bottom: 1px solid #E2E8F0; padding-bottom: 2px; }
+  .tab-btn {
+    background: none; border: none; padding: 6px 10px; font-size: 12px; font-weight: 600;
+    color: #64748B; cursor: pointer; border-bottom: 2px solid transparent;
+  }
+  .tab-btn.active { color: #2563EB; border-bottom-color: #2563EB; }
+  #overview-panel, #trends-panel, #ask-panel { margin-top: 8px; }
+  .answer-box { background: white; border: 1px solid #E2E8F0; border-radius: 8px; padding: 10px; }
+</style>
+</head>
+<body>
+
+<div id="setup-screen" class="setup" style="display:none">
+  <h1>Connect HubSpot</h1>
+  <p class="subtitle">Paste your HubSpot Service Key (Private App token) to connect. Stored locally, never sent anywhere else.</p>
+  <input type="password" id="api-key-input" placeholder="pat-na1-...">
+  <button id="save-key-btn">Connect</button>
+  <div id="setup-error" class="error"></div>
+</div>
+
+<div id="dashboard-screen" style="display:none">
+  <div class="toolbar">
+    <h1>Lead Pipeline</h1>
+    <div>
+      <button id="refresh-btn" class="secondary">Refresh</button>
+      <button id="settings-btn" class="secondary">Key</button>
+    </div>
+  </div>
+  <div class="subtitle">Live from HubSpot</div>
+  <div class="tabs">
+    <button class="tab-btn active" id="tab-overview">Overview</button>
+    <button class="tab-btn" id="tab-trends">Trends</button>
+    <button class="tab-btn" id="tab-ask">Ask</button>
+  </div>
+
+  <div id="overview-panel">
+    <div id="cards-container"></div>
+    <h2 id="deals-heading">Deals</h2>
+    <div id="deals-container"></div>
+    <h2 id="contacts-heading">Top Contacts</h2>
+    <div id="contacts-container"></div>
+  </div>
+
+  <div id="trends-panel" style="display:none">
+    <div id="trends-container"></div>
+  </div>
+
+  <div id="ask-panel" style="display:none">
+    <h2>Ask</h2>
+    <div class="chat-section">
+      <div class="quick-questions" id="quick-questions"></div>
+      <div class="chat-input-row">
+        <input type="text" id="chat-input" placeholder="Ask a question about your pipeline...">
+        <button id="ask-btn">Ask</button>
+      </div>
+      <div class="chat-answer" id="chat-answer"></div>
+    </div>
+  </div>
+</div>
+
+<div id="loading-screen" class="loading">Loading...</div>
+
+<script src="popup.js"></script>
+</body>
+</html>

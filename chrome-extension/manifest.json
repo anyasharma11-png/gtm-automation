@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Lead Pipeline Dashboard",
+  "version": "1.0",
+  "description": "Live view of your HubSpot lead pipeline, deals, and AI coaching briefs.",
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Lead Pipeline Dashboard"
+  },
+  "permissions": ["storage"],
+  "host_permissions": ["https://api.hubapi.com/*"]
+}
