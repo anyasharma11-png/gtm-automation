@@ -5,8 +5,6 @@ __pycache__/
 venv/
 credentials.json
 token.json
-apollo_usage.json
-apollo_seen_ids.json
 *.log
 *_log.txt
 queues/

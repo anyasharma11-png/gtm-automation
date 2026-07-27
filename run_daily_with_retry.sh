@@ -21,7 +21,8 @@ while [ $ATTEMPT -le $MAX_ATTEMPTS ]; do
 
     python3 run_all.py && \
     python3 create_deals.py && \
-    python3 deal_coaching.py
+    python3 deal_coaching.py && \
+    python3 harvest_to_drive.py
 
     if [ $? -eq 0 ]; then
         echo "=== Succeeded on attempt $ATTEMPT ==="
