@@ -27,6 +27,9 @@ from dotenv import load_dotenv
 
 load_dotenv()
 HUBSPOT_KEY = os.getenv("HUBSPOT_SERVICE_KEY", "").strip()
+if not HUBSPOT_KEY:
+    print("No HUBSPOT_SERVICE_KEY found in .env")
+    sys.exit(0)
 HEADERS = {"Authorization": f"Bearer {HUBSPOT_KEY}", "Content-Type": "application/json"}
 BASE = "https://api.hubapi.com"
 

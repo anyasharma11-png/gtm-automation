@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests python-dotenv google-auth google-auth-oauthlib google-api-python-client
+          pip install -r requirements.txt
 
       - name: Restore Google token
         run: echo "${{ secrets.GOOGLE_TOKEN_JSON }}" > token.json
@@ -43,6 +43,9 @@ jobs:
           python3 create_deals.py || true
           python3 deal_coaching.py || true
           python3 harvest_to_drive.py || true
+
+      - name: Update distributable template on Google Drive
+        run: python3 package_for_drive.py || true
 
       - name: Commit updated state files back to repo
         run: |
