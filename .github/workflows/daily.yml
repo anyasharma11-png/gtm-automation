@@ -27,10 +27,14 @@ jobs:
           pip install -r requirements.txt
 
       - name: Restore Google token
-        run: echo "${{ secrets.GOOGLE_TOKEN_JSON }}" > token.json
+        env:
+          GOOGLE_TOKEN_JSON: ${{ secrets.GOOGLE_TOKEN_JSON }}
+        run: printf '%s' "$GOOGLE_TOKEN_JSON" > token.json
 
       - name: Restore Google credentials
-        run: echo "${{ secrets.GOOGLE_CREDENTIALS_JSON }}" > credentials.json
+        env:
+          GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
+        run: printf '%s' "$GOOGLE_CREDENTIALS_JSON" > credentials.json
 
       - name: Run pipeline
         env:
@@ -42,10 +46,10 @@ jobs:
           python3 run_all.py || true
           python3 create_deals.py || true
           python3 deal_coaching.py || true
-          python3 harvest_to_drive.py || true
+          python3 harvest_to_drive.py
 
       - name: Update distributable template on Google Drive
-        run: python3 package_for_drive.py || true
+        run: python3 package_for_drive.py
 
       - name: Commit updated state files back to repo
         run: |
