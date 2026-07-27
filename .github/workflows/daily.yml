@@ -31,6 +31,19 @@ jobs:
           GOOGLE_TOKEN_JSON: ${{ secrets.GOOGLE_TOKEN_JSON }}
         run: printf '%s' "$GOOGLE_TOKEN_JSON" > token.json
 
+      - name: Diagnose token scopes (safe -- doesn't expose secrets)
+        run: |
+          python3 -c "
+          import json
+          with open('token.json') as f:
+              data = json.load(f)
+          print('Scopes found in token.json:')
+          for s in data.get('scopes', []):
+              print(' -', s)
+          print('Has refresh_token:', bool(data.get('refresh_token')))
+          print('Has client_id:', bool(data.get('client_id')))
+          "
+
       - name: Restore Google credentials
         env:
           GOOGLE_CREDENTIALS_JSON: ${{ secrets.GOOGLE_CREDENTIALS_JSON }}
