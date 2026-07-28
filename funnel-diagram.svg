@@ -1,0 +1,52 @@
+<svg viewBox="0 0 960 1500" xmlns="http://www.w3.org/2000/svg" font-family="-apple-system, Helvetica, Arial, sans-serif">
+<rect width="100%" height="100%" fill="#FFFFFF"/>
+<text x="480" y="45" text-anchor="middle" font-size="24" font-weight="700" fill="#1E293B">ICP Automation Funnel</text>
+<polygon points="40.0,90 920.0,90 855.0,300 105.0,300" fill="#F8FAFC" stroke="#334155" stroke-width="1.5"/>
+<text x="480" y="128" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="0.8" fill="#1E293B">LEAD GENERATION</text>
+<rect x="135.0" y="146" width="216.7" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="243.3" y="195.8" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="243.3" dy="0">Apollo.io searches for new</tspan><tspan x="243.3" dy="19">candidates that match your ideal</tspan><tspan x="243.3" dy="19">customer profile.</tspan></text>
+<rect x="371.7" y="146" width="216.7" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="480.0" y="195.8" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="480.0" dy="0">Full contact details are</tspan><tspan x="480.0" dy="19">enriched automatically before</tspan><tspan x="480.0" dy="19">import.</tspan></text>
+<rect x="608.3" y="146" width="216.7" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="716.7" y="195.8" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="716.7" dy="0">New leads are imported directly</tspan><tspan x="716.7" dy="19">into HubSpot as real contact</tspan><tspan x="716.7" dy="19">records.</tspan></text>
+<polygon points="105.0,300 855.0,300 790.0,510 170.0,510" fill="#EEF2F6" stroke="#334155" stroke-width="1.5"/>
+<text x="480" y="338" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="0.8" fill="#1E293B">QUALIFICATION</text>
+<rect x="200.0" y="356" width="173.3" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="286.7" y="405.8" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="286.7" dy="0">Each contact is scored</tspan><tspan x="286.7" dy="19">using a role and facility-</tspan><tspan x="286.7" dy="19">fit model.</tspan></text>
+<rect x="393.3" y="356" width="173.3" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="480.0" y="405.8" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="480.0" dy="0">Contacts are sorted into</tspan><tspan x="480.0" dy="19">Top, Mid, and Low tiers</tspan><tspan x="480.0" dy="19">based on that score.</tspan></text>
+<rect x="586.7" y="356" width="173.3" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="673.3" y="405.8" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="673.3" dy="0">Every lead is routed to</tspan><tspan x="673.3" dy="19">the correct regional</tspan><tspan x="673.3" dy="19">salesperson automatically.</tspan></text>
+<polygon points="170.0,510 790.0,510 725.0,720 235.0,720" fill="#E2E8F0" stroke="#334155" stroke-width="1.5"/>
+<text x="480" y="548" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="0.8" fill="#1E293B">OUTREACH</text>
+<rect x="265.0" y="566" width="130.0" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="330.0" y="596.8" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="330.0" dy="0">Top-tier contacts</tspan><tspan x="330.0" dy="19">receive a</tspan><tspan x="330.0" dy="19">personalized three-</tspan><tspan x="330.0" dy="19">touch nurture</tspan><tspan x="330.0" dy="19">campaign.</tspan></text>
+<rect x="415.0" y="566" width="130.0" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="480.0" y="606.3" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="480.0" dy="0">Mid-tier contacts</tspan><tspan x="480.0" dy="19">receive a single</tspan><tspan x="480.0" dy="19">automated outreach</tspan><tspan x="480.0" dy="19">draft.</tspan></text>
+<rect x="565.0" y="566" width="130.0" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="630.0" y="606.3" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="630.0" dy="0">Stalled deals are</tspan><tspan x="630.0" dy="19">re-engaged on their</tspan><tspan x="630.0" dy="19">own separate</tspan><tspan x="630.0" dy="19">follow-up cadence.</tspan></text>
+<polygon points="235.0,720 725.0,720 670.0,930 290.0,930" fill="#CBD5E1" stroke="#334155" stroke-width="1.5"/>
+<text x="480" y="758" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="0.8" fill="#1E293B">ENGAGEMENT</text>
+<rect x="320.0" y="776" width="150.0" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="395.0" y="825.8" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="395.0" dy="0">Replies are detected</tspan><tspan x="395.0" dy="19">automatically through</tspan><tspan x="395.0" dy="19">Gmail thread analysis.</tspan></text>
+<rect x="490.0" y="776" width="150.0" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="565.0" y="816.3" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="565.0" dy="0">Each reply boosts that</tspan><tspan x="565.0" dy="19">contact's score and</tspan><tspan x="565.0" dy="19">records which message</tspan><tspan x="565.0" dy="19">worked.</tspan></text>
+<polygon points="290.0,930 670.0,930 615.0,1140 345.0,1140" fill="#B7C4D6" stroke="#334155" stroke-width="1.5"/>
+<text x="480" y="968" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="0.8" fill="#1E293B">DEAL MANAGEMENT</text>
+<rect x="375.0" y="986" width="95.0" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="422.5" y="1007.3" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="422.5" dy="0">A real HubSpot</tspan><tspan x="422.5" dy="19">deal is</tspan><tspan x="422.5" dy="19">created and</tspan><tspan x="422.5" dy="19">linked to</tspan><tspan x="422.5" dy="19">every contact</tspan><tspan x="422.5" dy="19">involved.</tspan></text>
+<rect x="490.0" y="986" width="95.0" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="537.5" y="1007.3" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="537.5" dy="0">Deal health is</tspan><tspan x="537.5" dy="19">rated live</tspan><tspan x="537.5" dy="19">using signals</tspan><tspan x="537.5" dy="19">from Slack,</tspan><tspan x="537.5" dy="19">notes, and</tspan><tspan x="537.5" dy="19">meetings.</tspan></text>
+<polygon points="345.0,1140 615.0,1140 560.0,1350 400.0,1350" fill="#94A6BF" stroke="#334155" stroke-width="1.5"/>
+<text x="480" y="1178" text-anchor="middle" font-size="16" font-weight="700" letter-spacing="0.8" fill="#1E293B">INTELLIGENCE</text>
+<rect x="430.0" y="1196" width="100.0" height="130" rx="10" fill="white" stroke="#64748B" stroke-width="1.2"/>
+<text x="480.0" y="1217.3" text-anchor="middle" font-size="13" fill="#1E293B"><tspan x="480.0" dy="0">A full coaching</tspan><tspan x="480.0" dy="19">brief is</tspan><tspan x="480.0" dy="19">generated for</tspan><tspan x="480.0" dy="19">every deal,</tspan><tspan x="480.0" dy="19">every single</tspan><tspan x="480.0" dy="19">day.</tspan></text>
+<polygon points="400.0,1350 560.0,1350 510.0,1420 450.0,1420" fill="#94A6BF" stroke="#334155" stroke-width="1.5"/>
+<rect x="250" y="739" width="460" height="52" rx="26" fill="#FEF3C7" stroke="#B45309" stroke-width="1.5"/>
+<text x="480" y="771" text-anchor="middle" font-size="14" font-weight="700" fill="#78350F">A real person always reviews and sends every message personally.</text>
+<line x1="480" y1="1436" x2="480" y2="1476" stroke="#1E293B" stroke-width="2.5" marker-end="url(#arrow)"/>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#1E293B"/></marker></defs>
+<rect x="220" y="1489" width="520" height="70" rx="12" fill="#1E293B"/>
+<text x="480" y="1517" text-anchor="middle" font-size="14" font-weight="700" fill="white">Synced to Google Drive and the Chrome extension</text>
+<text x="480" y="1539" text-anchor="middle" font-size="13" fill="#CBD5E1">A weekly summary is posted automatically to Slack.</text>
+</svg>
